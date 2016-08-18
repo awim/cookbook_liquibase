@@ -1,0 +1,15 @@
+# Sample Properties
+# driver: oracle.jdbc.OracleDriver
+# classpath: jdbcdriver.jar
+# url: jdbc:oracle:thin:@localhost:1521:oracle
+# username: scott
+# password: tiger
+
+driver: <%= @jdbc_driver %>
+classpath: lib/<%= @jdbc_lib %>
+url: <%= @jdbc_target %>
+username: <%= @db_user %>
+password: <%= @db_password %>
+changeLogFile: awim.xml
+diffTypes: tables,columns,views,primaryKeys,indexes,foreignKeys,sequences,data
+logLevel: debug

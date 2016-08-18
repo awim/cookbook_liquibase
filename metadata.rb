@@ -1,0 +1,7 @@
+name 'liquibase'
+maintainer 'awim/mtaqwim'
+maintainer_email 'muhammadtaqwiem@gmail.com'
+license 'all_rights'
+description 'Installs/Configures liquibase'
+long_description 'Installs/Configures liquibase'
+version '0.1.0'
